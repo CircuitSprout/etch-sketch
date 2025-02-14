@@ -5,3 +5,20 @@
     clear:both;
     visibility:hidden;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0;
+}
+.container div{
+    flex: 1 0 20%;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    background-color:aliceblue;
+    transition: background-color 0.3s;
+}
+.container div:hover{
+    background-color: mintcream;
+}
